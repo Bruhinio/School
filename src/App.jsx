@@ -2055,7 +2055,7 @@ const DirectorApp=({state,setState,onLogout})=>{
                 <div style={{width:32,height:32,borderRadius:"50%",background:"rgba(255,255,255,0.2)",display:"flex",alignItems:"center",justifyContent:"center",fontSize:16}}>🤖</div>
                 <div>
                   <div style={{fontSize:13,fontWeight:700,color:"#fff",fontFamily:SF}}>Asistente Escolar</div>
-                  <div style={{fontSize:10,color:"rgba(255,255,255,0.7)",fontFamily:SF}}>Powered by Claude</div>
+                  <div style={{fontSize:10,color:"rgba(255,255,255,0.7)",fontFamily:SF}}>Powered by Gemini</div>
                 </div>
               </div>
               <button onClick={()=>setAiChatOpen(false)} style={{background:"rgba(255,255,255,0.2)",border:"none",borderRadius:"50%",width:26,height:26,cursor:"pointer",color:"#fff",fontSize:14,display:"flex",alignItems:"center",justifyContent:"center"}}>✕</button>
@@ -2946,7 +2946,7 @@ const TeacherApp=({state,setState,teacherId,onLogout})=>{
 
       {tab==="ai"&&(
         <div>
-          <NavBar title="Generador IA" large sub="Powered by Claude" accent={C.purple} right={<BellBtn/>}/>
+          <NavBar title="Generador IA" large sub="Powered by Gemini" accent={C.purple} right={<BellBtn/>}/>
           <div style={{padding:"16px 16px 100px"}}>
             <Card style={{padding:16,marginBottom:14}}>
               <div style={{...fmt.headline,color:C.lbl,fontFamily:SF,marginBottom:4}}>🤖 Crear Examen o Actividad</div>
